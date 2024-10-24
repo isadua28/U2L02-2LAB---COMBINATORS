@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Combinators LAB</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Base styles to make content visible */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .practice-section {
+            border: 1px solid #ddd;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        /* Your combinator practice styles will go here */
+
+    </style>
+</head>
+<body>
+    <h1>CSS Combinators LAB</h1>
+    <!-- Exercise 1: Descendant vs Child -->
+    <div class="practice-section">
+        <h2>Exercise 1: Descendant vs Child</h2>
+        <div class="container">
+            <p>Direct child paragraph 1</p>
+            <section>
+                <p>Descendant paragraph</p>
+            </section>
+            <p>Direct child paragraph 2</p>
+        </div>
+    </div>
+
+    <!-- Exercise 2: Siblings -->
+    <div class="practice-section">
+        <h2>Exercise 2: Siblings</h2>
+        <div class="content">
+            <h3>Content Title</h3>
+            <p>First paragraph after title</p>
+            <p>Second paragraph</p>
+            <p>Third paragraph</p>
+        </div>
+    </div>
+
+    <!-- Exercise 3: Blog Post -->
+    <div class="practice-section">
+        <h2>Exercise 3: Blog Post</h2>
+        <article class="blog-post">
+            <h1>My First Blog Post</h1>
+            <p>Published: July 1, 2024</p>
+            <img src="https://placehold.co/400x200"" alt="Blog image">
+            <p>First paragraph after image...</p>
+            <p>Second paragraph of content...</p>
+        </article>
+    </div>
+
+    <!-- Exercise 4: Navigation -->
+    <div class="practice-section">
+        <h2>Exercise 4: Navigation</h2>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Free Practice Area -->
+    <div class="practice-section">
+        <h2>Free Practice Area</h2>
+        <div class="practice">
+            <h1>Practice Title</h1>
+            <p>First paragraph</p>
+            <div class="box">
+                <p>Inside box paragraph</p>
+            </div>
+            <p>Second paragraph</p>
+            <p>Third paragraph</p>
+        </div>
+    </div>
+</body>
+</html>

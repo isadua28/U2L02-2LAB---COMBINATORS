@@ -1,0 +1,66 @@
+/* Style all paragraphs inside container */
+.container p {
+    color: blue;
+}
+
+/* Style only direct child paragraphs */
+.container > p {
+    border-left: 3px solid red;
+    padding-left: 10px;
+}
+
+/* Style paragraph right after h2 */
+h2 + p {
+    font-weight: bold;
+}
+
+/* Style all paragraphs after h2 */
+h2 ~ p {
+    color: #666;
+}
+
+/* Title styling */
+.blog-post h1 {
+    color: #2c3e50;
+}
+
+/* Style paragraph after image */
+.blog-post img + p {
+    font-weight: bold;
+}
+
+/* Style all paragraphs in blog post */
+.blog-post p {
+    line-height: 1.6;
+}
+
+/* Target direct ul child of nav */
+.main-nav > ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Target all a elements inside nav */
+.main-nav a {
+    color: #333;
+    text-decoration: none;
+}
+
+.practice p {
+    font-size: 25px;
+    color: darkolivegreen;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.practice > p {
+    border-left: 6px solid blue;
+}
+
+h1 + p {
+    font-weight: bold;
+}
+
+.box p {
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
