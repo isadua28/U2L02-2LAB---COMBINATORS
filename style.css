@@ -39,7 +39,11 @@ h2 ~ p {
     list-style: none;
     padding: 0;
 }
-
+/* Target all li elements inside nav */
+.main-nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
 /* Target all a elements inside nav */
 .main-nav a {
     color: #333;
